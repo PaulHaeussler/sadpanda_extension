@@ -12,3 +12,6 @@ This is an extension for chrome to to take you to a random sadpanda gallery with
 
 
 Please note: You can only roll a random site if youre already on sadpanda, if you click the button on some other page (google or smt), it won't work
+
+
+In case for some reason there is no window showing when you click on Load unpacked extension, drag the app folder into the window
