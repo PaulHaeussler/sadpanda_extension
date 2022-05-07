@@ -1,6 +1,6 @@
 # Sadpanda Extension
 
-This is an extension for chrome to to take you to a random sadpanda gallery with the press of a button.
+This is an extension for chrome to take you to a random sadpanda gallery with the press of a button.
 
 ### How to Install:
 
