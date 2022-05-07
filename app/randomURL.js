@@ -7,7 +7,13 @@ function getRandomIntInclusive(min, max) {
 // Set 946 to your max page count on the front page
 var pid = getRandomIntInclusive(0, 946)
 console.log(pid)
-fetch("https://e-hentai.org/?page=" + pid, {headers: [
+var domain = ""
+if (window.location.href.startsWith("https://e-hentai.org")){
+    domain = "https://e-hentai.org"
+} else if (window.location.href.startsWith("https://exhentai.org")){
+    domain = "https://exhentai.org"
+}
+fetch(domain + "/?page=" + pid, {headers: [
         ['charset', 'utf-8'],
     ]})
     .then(response => response.text())
